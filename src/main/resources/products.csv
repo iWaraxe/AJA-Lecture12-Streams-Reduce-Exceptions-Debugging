@@ -1,0 +1,11 @@
+id,name,price,category,inStock
+1,Laptop,1200.00,Electronics,true
+2,Smartphone,800.00,Electronics,true
+3,Toaster,25.99,Home Appliances,true
+4,Refrigerator,499.99,Home Appliances,false
+5,Blender,60.00,Kitchen Appliances,true
+6,Headphones,150.50,Electronics,true
+7,Microwave,85.75,Home Appliances,false
+8,Tablet,300.00,Electronics,true
+9,Television,750.00,Electronics,false
+10,Camera,450.00,Electronics,true
