@@ -19,6 +19,7 @@ public class Ex01PeekDebuggingExample {
 
         // Stream pipeline with peek() for debugging
         numbers.stream()
+                .peek(n -> System.out.println("Before filter: " + n))
                 .filter(n -> n % 2 == 0)
                 .peek(n -> System.out.println("After filter: " + n))
                 .map(n -> n * n)

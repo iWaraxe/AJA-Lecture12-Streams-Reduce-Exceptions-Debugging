@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * Demonstrates the importance of associativity in accumulator and combiner functions.
+ * a + b + c = (a + b) + c = a + (b + c)
  */
 public class Ex04AssociativityImportance {
 

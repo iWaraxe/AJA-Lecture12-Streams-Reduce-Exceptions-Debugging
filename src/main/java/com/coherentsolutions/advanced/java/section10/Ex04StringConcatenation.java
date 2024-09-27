@@ -15,7 +15,7 @@ public class Ex04StringConcatenation {
      */
     public static void main(String[] args) {
         // List of words
-        List<String> words = Arrays.asList("Java", "streams", "are", "powerful");
+        List<String> words = Arrays.asList(" Java", "streams", "are", "powerful ");
 
         // Concatenate words using reduce()
         String sentence = words.stream()

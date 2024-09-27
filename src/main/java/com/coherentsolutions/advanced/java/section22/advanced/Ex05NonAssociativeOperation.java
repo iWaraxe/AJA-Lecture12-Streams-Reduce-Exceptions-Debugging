@@ -19,10 +19,10 @@ public class Ex05NonAssociativeOperation {
 
         // Using reduce() with division, which is non-associative
         double resultSequential = numbers.stream()
-                .reduce(1.0, (a, b) -> a / b);
+                .reduce(10000., (a, b) -> a / b);
 
         double resultParallel = numbers.parallelStream()
-                .reduce(1.0, (a, b) -> a / b, (a, b) -> a / b);
+                .reduce(10000.0, (a, b) -> a / b, (a, b) -> a / b);
 
         // Output the results
         System.out.println("Result with sequential stream: " + resultSequential);
